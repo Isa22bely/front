@@ -12,12 +12,12 @@ export default createGlobalStyle`
   }
 `
 export const colors = {
-  primary: "#455a64",
-  secondary: "#7e57c2",
-  third: "#ffb74d",
-  thirdLight: "#ffe9ca",
+  primary: "#d0b2e8",
+  secondary: "#9c30cf",
+  third: "#c179ed",
+  thirdLight: "#64448c",
   white: "#ffffff",
   black: "#000000",
   success: "#50ba9e",
-  danger: "#660000"
+  danger: "#ba3847"
 }

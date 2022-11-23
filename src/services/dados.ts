@@ -1,137 +1,38 @@
-const dados = [
-  {
-    id: 1,
-    nome: "Lázaro",
-    data: "27/04/2022 10:08:00",
-    titulo: "Blusa",
-    mensagem: "Tenho uma blusa para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }]
-  },
-  {
-    id: 2,
-    nome: "Luan",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 3,
-    nome: "Luana",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 4,
-    nome: "Maria",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 5,
-    nome: "João",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 6,
-    nome: "Kauã",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 7,
-    nome: "José",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 8,
-    nome: "Roberto",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-]
 
+const dados = [
+    {
+        id: 1,
+        tipo: "Partes de baixo ",
+        valor: "R$:69,99",
+        mensagem: "Calça jens azul simples",
+        topico: [{
+                id: 1,
+                item: "Comprar"
+            },]
+    },
+    {
+        id: 2,
+        tipo: "Partes de cima ",
+        valor: "R$:50,29",
+        mensagem: "Corset simples, branco",
+        topico: [{
+                id: 1,
+                item: "Comprar"
+            },]
+    },
+    {
+        id: 2,
+        tipo: "Vestido",
+        valor: "R$:86,89",
+        mensagem: "Vertido curto com brilhos,rosa",
+        topico: [{
+                id: 1,
+                item: "Comprar"
+            },]
+    },
+    [{
+            id: 1,
+            item: "Pesquisar"
+        },]
+];
 export default dados
